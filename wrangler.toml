@@ -1,9 +1,5 @@
 name = "workers-graphql-server"
-type = "webpack"
 
-account_id = ""
-zone_id = ""
-route = ""
 
 workers_dev = true
 webpack_config = "webpack.config.js"
@@ -18,8 +14,6 @@ compatibility_date = "2021-10-03"
 [build]
 command = "npm install"
 
-[build.upload]
-format = "modules"
 main = "./src/index.js"
 
 [dev]
