@@ -4,15 +4,15 @@
   "description": "🔥Lightning-fast, globally distributed Apollo GraphQL server, deployed at the edge using Cloudflare Workers",
   "version": "1.1.1",
   "author": "Kristian Freeman <kristian@bytesized.xyz>",
+  "scripts": {
+    "deploy": "wrangler publish src/index.js",
+    "dev": "wrangler dev --local"
+  },
   "dependencies": {
     "apollo-datasource-rest": "^3.2.0",
     "apollo-server-cloudflare": "^3.3.0",
     "graphql": "^15.6.0"
   },
-  "scripts": {
-		"deploy": "wrangler publish src/index.js",
-		"dev": "wrangler dev --local"
-	},
   "devDependencies": {
     "prettier": "^2.4.1",
     "webpack": "^5.56.0"
