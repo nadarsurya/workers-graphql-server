@@ -1,6 +1,6 @@
 name = "workers-graphql-server"
 main = "./src/index.js"
-
+node_compat = true
 workers_dev = true
 compatibility_date = "2023-09-09"
 
