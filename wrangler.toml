@@ -11,8 +11,8 @@ compatibility_date = "2023-09-09"
 #   { binding = "WORKERS_GRAPHQL_CACHE", id = "" }
 # ]
 
-[build]
-command = "npm install"
+#[build]
+#command = "npm install"
 
 
 
