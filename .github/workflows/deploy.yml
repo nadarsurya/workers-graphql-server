@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-  repository_dispatch:
 
 jobs:
   build-and-deploy:
@@ -18,4 +17,4 @@ jobs:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           wranglerVersion: "3.7.0"
         env:
-          CF_ACCOUNT_ID: ${{secrets.CF_ACCOUNT_ID}}
+          CLOUDFLARE_ACCOUNT_ID: ${{secrets.CF_ACCOUNT_ID}}
