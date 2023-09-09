@@ -2,7 +2,7 @@ name = "workers-graphql-server"
 main = "./src/index.js"
 
 workers_dev = true
-compatibility_date = "2023-09-09
+compatibility_date = "2023-09-09"
 
 
 # Enable a kv-namespace to use the KV caching feature
