@@ -12,7 +12,6 @@ jobs:
     name: Build & Deploy
     steps:
       - uses: actions/checkout@v3
-      - run: npm install
       - name: Publish
         uses: cloudflare/wrangler-action@v3
         with:
