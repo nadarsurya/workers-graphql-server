@@ -9,6 +9,10 @@
     "apollo-server-cloudflare": "^3.3.0",
     "graphql": "^15.6.0"
   },
+  "scripts": {
+		"deploy": "wrangler publish src/index.js",
+		"dev": "wrangler dev --local"
+	},
   "devDependencies": {
     "prettier": "^2.4.1",
     "webpack": "^5.56.0"
