@@ -16,7 +16,7 @@ compatibility_date = "2021-10-03"
 # ]
 
 [build]
-command = "npm install && npm run build"
+command = "npm install"
 
 [build.upload]
 format = "modules"
