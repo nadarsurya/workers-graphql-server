@@ -12,7 +12,11 @@ compatibility_date = "2023-09-09"
 # ]
 
 #[build]
-#command = "npm install"
+command = "npm install"
+
+[site]
+bucket = "./public"
+include = ["./"]
 
 
 
