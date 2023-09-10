@@ -10,6 +10,9 @@ compatibility_date = "2023-09-09"
 # kv-namespaces = [
 #   { binding = "WORKERS_GRAPHQL_CACHE", id = "" }
 # ]
+rules = [
+  { type = "ESModule", globs = ["**/*.js"], fallthrough = true }
+]
 
 [build]
 command = "npm install"
